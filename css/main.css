@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Simplifica";
+  src: url('../fonts/Simplifica/SIMPLIFICA Typeface.ttf');
+  font-weight: lighter;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  width: 100%;
+  font-family: "Simplifica";
+  background: #F7F7F7;
+}
+
+.page-header {
+  padding: 4em 0;
+  width: 100%;
+  float: left;
+  text-align: center;
+  background: #1c1c1c;
+  /*background: url('../img/banner.jpg');
+  min-height: 100%;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: center;
+  background-attachment: fixed;*/
+  overflow: hidden;
+}
+
+.header-logo {
+  width: 100px;
+}
+
+.header-title {
+  color: #FFF;
+  font-size: 2em;
+  text-shadow: 0 1px 3px #333;
+}
+.header-slogan {
+  margin: .5em 0;
+  color: #FFF;
+  font-size: 1.5em;
+  text-shadow: 0 1px 3px #333;
+}
+
+.social-links {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+}
+.social-links a {
+  display: block;
+  padding: 1em .25em;
+  color: #FFF;
+}
+.social-links i {
+  font-size: 1.5em;
+  text-shadow: 0 1px 3px #333;
+}
