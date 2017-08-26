@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo2.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="46.277217"
+     inkscape:cx="137.56641"
      inkscape:cy="238.03293"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -61,13 +61,8 @@
      transform="translate(-139.07422,-3)">
     <path
        style="fill:#c3b7d8;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 215,394.57227 215,113.68945 139.07422,372.2793 215,394.57227 Z"
+       d="M 221,87.68945 221,368.57227 145.07422,109.98242 221,87.68945 Z"
        id="path4244"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#fe666c;fill-opacity:0.94117647;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 529.88867,407.36133 -271.33203,0 249.79688,73.34375 21.53515,-73.34375 z"
-       id="path4242"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#1bc7c8;fill-opacity:0.94117647;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
@@ -81,7 +76,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:144.92791748px;line-height:125%;font-family:NanumMyeongjo;-inkscape-font-specification:'NanumMyeongjo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144.92500367px;line-height:125%;font-family:NanumMyeongjo;-inkscape-font-specification:'NanumMyeongjo, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="336.65851"
        y="285.44562"
        id="text4224"

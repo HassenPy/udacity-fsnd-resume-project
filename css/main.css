@@ -1,34 +1,43 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 18px;
+}
+
 @font-face {
   font-family: "Simplifica";
   src: url('../fonts/Simplifica/SIMPLIFICA Typeface.ttf');
   font-weight: lighter;
 }
 
-html,
-body {
-  height: 100%;
+.violet {
+  color: #ac92d9;
+}
+.yellow {
+  color: #ffdf5e;
+}
+.blue {
+  color: #28cacb;
 }
 
 .container {
   min-height: 100%;
   width: 100%;
   font-family: "Simplifica";
-  background: #F7F7F7;
+  background: #FFF;
 }
 
+/* banner style */
 .page-header {
   padding: 4em 0;
+  padding-top: 7em;
   width: 100%;
   float: left;
   text-align: center;
-  background: #1c1c1c;
-  /*background: url('../img/banner.jpg');
-  min-height: 100%;
-  background-size: cover;
-  background-origin: border-box;
-  background-position: center;
-  background-attachment: fixed;*/
   overflow: hidden;
+  position: relative;
 }
 
 .header-logo {
@@ -36,20 +45,22 @@ body {
 }
 
 .header-title {
-  color: #FFF;
+  color: #333;
   font-size: 2em;
-  text-shadow: 0 1px 3px #333;
 }
 .header-slogan {
   margin: .5em 0;
-  color: #FFF;
+  margin-bottom: 2em;
+  color: #333;
   font-size: 1.5em;
-  text-shadow: 0 1px 3px #333;
 }
 
+/* social icons style */
 .social-links {
-  width: 100%;
-  float: left;
+  top: .5em;
+  right: 3em;
+  position: absolute;
+  display: inline-block;
   text-align: center;
 }
 
@@ -62,6 +73,81 @@ body {
   color: #FFF;
 }
 .social-links i {
+  color: #333;
   font-size: 1.5em;
-  text-shadow: 0 1px 3px #333;
+}
+
+.nav li {
+  display: inline-block;
+  margin: .5em;
+}
+.nav li a {
+  padding: .25em;
+  color: #333;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.projects-link {
+  border-bottom: 2px solid #c3b7d8;
+}
+.projects-link:hover {
+  background: #c3b7d8;
+}
+
+.os-link {
+  border-bottom: 2px solid #28cacb;
+}
+.os-link:hover {
+  background: #28cacb;
+}
+
+.so-link {
+  border-bottom: 2px solid #ffdf5e;
+}
+.so-link:hover {
+  background: #ffdf5e;
+}
+
+
+/* projects section */
+.content {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.content-header {
+  text-align: center;
+}
+.content-title {
+  font-size: 5em;
+  margin: .5em 0;
+}
+.content-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  float: none;
+}
+/* project article */
+.project {
+  padding: 2em;
+  margin: .25em;
+  display: inline-block;
+}
+.project:hover .project-img {
+  box-shadow: 0 4px 16px rgba(51, 51, 51, 0.55);
+}
+
+.project-img {
+  max-width: 200px;
+  box-shadow: 0 1px 4px rgba(51, 51, 51, 0.55);
+  transition: box-shadow .35s ease-in-out;
+}
+.project-title {
+  font-size: 1.6em;
+  margin: .5em 0;
+}
+.project-link {
+  text-decoration: none;
+  color: inherit;
 }
