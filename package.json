@@ -1,0 +1,14 @@
+{
+  "name": "udacity-fsnd-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mustache data.json index.html > output.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mustache": "^2.3.0"
+  }
+}

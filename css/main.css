@@ -11,11 +11,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 @font-face {
@@ -40,6 +40,10 @@ h3 {
   color: #333;
   text-decoration: none;
   border-bottom: 2px solid #2196F3;
+  padding: .25em;
+}
+.link:hover {
+  background: #2196F3;
 }
 
 .container {

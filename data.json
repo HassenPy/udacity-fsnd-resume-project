@@ -1,0 +1,56 @@
+{
+  "projects": [{
+      "title": "Djerba Map",
+      "cover": "img/projects/neighborhood-map/2.png"
+    },
+    {
+      "title": "Picky",
+      "cover": "img/projects/item-catalog/login.png"
+    },
+    {
+      "title": "web robot controller",
+      "cover": "img/projects/remote-control/control.png"
+    }
+  ],
+  "repos": [{
+      "title": "django-pdb",
+      "contribution": "Add support for the latest django middleware, also now maintaining the project.",
+      "link": "https://github.com/HassenPy/django-pdb/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AHassenPy%20"
+    },
+    {
+      "title": "Mozilla Study Group's Event Tracker",
+      "contribution": "Changed the script so that it writes data to a google spreadsheet using nodejs.",
+      "link": "https://github.com/auremoser/sg-events/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AHassenPy%20"
+    },
+    {
+      "title": "Mozilla Science Lab website's frontend",
+      "contribution": "Added an adaptive behavior to the select filter using react.",
+      "link": "https://github.com/mozilla/science.mozilla.org/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AHassenPy%20"
+    },
+    {
+      "title": "Mozilla Science Lab website's backend",
+      "contribution": "Minor django admin enhancements like search and sorting.",
+      "link": "https://github.com/mozilla/api.mozillascience.org/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AHassenPy"
+    },
+    {
+      "title": "Mozilla Foundation's React component library",
+      "contribution": "allow binding the radio-filter component to a parent component state.",
+      "link": "https://github.com/mozilla/mofo-ui/pulls?q=is%3Apr+author%3AHassenPy"
+    },
+    {
+      "title": "routersploit",
+      "contribution": "Added module that tests for the Comtrend CT 5361T Password Disclosure vulnerability.",
+      "link": "https://github.com/reverse-shell/routersploit/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AHassenPy%20"
+    },
+    {
+      "title": "wifiphisher",
+      "contribution": "Bug fix, PEP8ify, halt the script unless hostapd is installed giving a colored custom message .",
+      "link": "https://github.com/wifiphisher/wifiphisher/pulls?q=is%3Apr+author%3AHassenPy"
+    },
+    {
+      "title": "Tango with Django Book",
+      "contribution": "First ever repo i contribute to, bug and typo fixes.",
+      "link": "https://github.com/leifos/tango_with_django_book/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AHassenPy%20"
+    }
+  ]
+}
