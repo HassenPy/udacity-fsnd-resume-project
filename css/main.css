@@ -1,9 +1,21 @@
-html,
-body {
+html, body {
   height: 100%;
 }
+
 body {
-  font-size: 18px;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.3em;
 }
 
 @font-face {
@@ -15,11 +27,19 @@ body {
 .violet {
   color: #ac92d9;
 }
+
 .yellow {
   color: #ffdf5e;
 }
+
 .blue {
   color: #28cacb;
+}
+
+.link {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid #2196F3;
 }
 
 .container {
@@ -29,7 +49,9 @@ body {
   background: #FFF;
 }
 
+
 /* banner style */
+
 .page-header {
   padding: 4em 0;
   padding-top: 7em;
@@ -46,16 +68,17 @@ body {
 
 .header-title {
   color: #333;
-  font-size: 2em;
 }
+
 .header-slogan {
   margin: .5em 0;
   margin-bottom: 2em;
   color: #333;
-  font-size: 1.5em;
 }
 
+
 /* social icons style */
+
 .social-links {
   top: .5em;
   right: 3em;
@@ -67,30 +90,32 @@ body {
 .social-links li {
   display: inline-block;
 }
+
 .social-links a {
   display: block;
   padding: 1em .25em;
   color: #FFF;
 }
+
 .social-links i {
   color: #333;
-  font-size: 1.5em;
 }
 
 .nav li {
   display: inline-block;
   margin: .5em;
 }
+
 .nav li a {
   padding: .25em;
   color: #333;
-  font-size: 1.3em;
   text-decoration: none;
 }
 
 .projects-link {
   border-bottom: 2px solid #c3b7d8;
 }
+
 .projects-link:hover {
   background: #c3b7d8;
 }
@@ -98,6 +123,7 @@ body {
 .os-link {
   border-bottom: 2px solid #28cacb;
 }
+
 .os-link:hover {
   background: #28cacb;
 }
@@ -105,35 +131,48 @@ body {
 .so-link {
   border-bottom: 2px solid #ffdf5e;
 }
+
 .so-link:hover {
   background: #ffdf5e;
 }
 
 
-/* projects section */
+/* content section */
+
 .content {
   width: 100%;
   float: left;
   text-align: center;
 }
+
 .content-header {
   text-align: center;
 }
+
 .content-title {
-  font-size: 5em;
+  font-size: 4em;
   margin: .5em 0;
 }
-.content-list {
+
+.content-container {
   max-width: 1000px;
   margin: 0 auto;
   float: none;
 }
-/* project article */
+
+
+/* projects list */
+
+.projects-list {
+  display: inline-block;
+}
+
 .project {
   padding: 2em;
   margin: .25em;
   display: inline-block;
 }
+
 .project:hover .project-img {
   box-shadow: 0 4px 16px rgba(51, 51, 51, 0.55);
 }
@@ -143,11 +182,39 @@ body {
   box-shadow: 0 1px 4px rgba(51, 51, 51, 0.55);
   transition: box-shadow .35s ease-in-out;
 }
+
 .project-title {
-  font-size: 1.6em;
   margin: .5em 0;
 }
+
 .project-link {
   text-decoration: none;
   color: inherit;
+}
+
+
+/* contributions table */
+
+.repos-list {
+  display: inline-block;
+}
+
+.repo {
+  width: 100%;
+  display: block;
+  float: left;
+  margin-bottom: 2em;
+}
+
+.repo-title {
+  color: #000;
+  margin-bottom: 1em;
+}
+
+.repo-contrib {
+  margin-bottom: 1em;
+}
+
+.repo-contrib-link {
+  margin-bottom: 1em;
 }
