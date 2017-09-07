@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hassen ben tanfous's portfolio</title>
+  <link rel="stylesheet" href="/dist/css/reset.css">
+  <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/dist/css/main.css">
+  <link rel="stylesheet" href="/dist/css/animate.css">
+  <link rel="stylesheet" href="/dist/fontello/css/fontello.css">
+  <script type="text/javascript" src="/dist/js/index-min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+      <header class="page-header row">
+        <div class="img-wrapper col-xs-12">
+          <img src="/dist/img/logo.svg" class="header-logo" alt="logo">
+        </div>
+        <h1 class="header-title col-xs-12">Hassen Ben Tanfous</h1>
+        <h2 class="header-slogan col-xs-12">fullstack web developer</h2>
+
+        <ul class="social-links">
+          <li>
+            <a href="#"><i class="icon icon-gh"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="icon icon-so"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="icon icon-tw"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="icon icon-mail"></i></a>
+          </li>
+        </ul>
+        <nav class="nav col-xs-12">
+          <ul>
+            <li>
+              <a href="#projects" data-target="#projects" class="nav-link projects-link active">Projects</a>
+            </li>
+            <li>
+              <a href="#repos" data-target="#repos" class="nav-link os-link">Open source</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="content row" id="projects">
+        <div class="content-container">
+          <header class="content-header">
+            <h2 class="content-title violet animated fadeInDown">Projects</h2>
+          </header>
+          <ul class="projects-list">
+            {{#projects}}
+            <li class="project animated fadeInDown">
+              <a href="{{link}}" target="_blank" class="project-link">
+                <img src="{{cover}}" class="project-img" alt="">
+                <h3 class="project-title">{{title}}</h3>
+              </a>
+            </li>
+            {{/projects}}
+          </ul>
+        </div>
+      </section>
+
+      <section class="content row" id="repos">
+        <div class="content-container">
+          <header class="content-header">
+            <h2 class="content-title blue animated fadeInDown">Open source</h2>
+          </header>
+          <ul class="repos-list row">
+            {{#repos}}
+              <li class="repo col-xs-12 animated fadeInDown">
+                <h3 class="repo-title">{{title}}</h3>
+                <p class="repo-contrib">{{contribution}}</p>
+                <div class="repo-contrib-link">
+                  <a href="{{link}}" class="link" target="_blank">changes</a>
+                </div>
+              </li>
+            {{/repos}}
+          </ul>
+        </div>
+      </section>
+  </div>
+</body>
+</html>

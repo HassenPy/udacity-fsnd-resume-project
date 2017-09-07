@@ -1,15 +1,18 @@
 {
   "projects": [{
       "title": "Djerba Map",
-      "cover": "img/projects/neighborhood-map/2.png"
+      "cover": "dist/img/projects/neighborhood-map/2.png",
+      "link": "https://github.com/HassenPy/udacity-fsnd-neighborhood-map-project"
     },
     {
       "title": "Picky",
-      "cover": "img/projects/item-catalog/login.png"
+      "cover": "dist/img/projects/item-catalog/login.png",
+      "link": "https://github.com/HassenPy/udacity-fsnd-item-catalog"
     },
     {
-      "title": "web robot controller",
-      "cover": "img/projects/remote-control/control.png"
+      "title": "Database Log analysis",
+      "cover": "dist/img/projects/log-analysis/log-analysis.png",
+      "link": "https://github.com/HassenPy/udacity-fsnd-project-2/"
     }
   ],
   "repos": [{

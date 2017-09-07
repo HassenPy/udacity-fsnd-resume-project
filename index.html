@@ -5,19 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hassen ben tanfous's portfolio</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="fontello/css/fontello.css">
+  <link rel="stylesheet" href="/dist/css/reset.css">
+  <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/dist/css/main.css">
+  <link rel="stylesheet" href="/dist/css/animate.css">
+  <link rel="stylesheet" href="/dist/fontello/css/fontello.css">
+  <script type="text/javascript" src="/dist/js/index-min.js"></script>
 </head>
 
 <body>
 
   <div class="container">
-    <main>
-      <header class="page-header">
-        <img src="img/logo.svg" class="header-logo" alt="logo">
-        <h1 class="header-title">Hassen Ben Tanfous</h1>
-        <h2 class="header-slogan">fullstack web developer</h2>
+      <header class="page-header row">
+        <div class="img-wrapper col-xs-12">
+          <img src="/dist/img/logo.svg" class="header-logo" alt="logo">
+        </div>
+        <h1 class="header-title col-xs-12">Hassen Ben Tanfous</h1>
+        <h2 class="header-slogan col-xs-12">fullstack web developer</h2>
 
         <ul class="social-links">
           <li>
@@ -33,101 +37,111 @@
             <a href="#"><i class="icon icon-mail"></i></a>
           </li>
         </ul>
-        <nav class="nav">
+        <nav class="nav col-xs-12">
           <ul>
             <li>
-              <a href="#" class="projects-link">Projects</a>
+              <a href="#projects" data-target="#projects" class="nav-link projects-link active">Projects</a>
             </li>
             <li>
-              <a href="#" class="os-link">Open source</a>
+              <a href="#repos" data-target="#repos" class="nav-link os-link">Open source</a>
             </li>
           </ul>
         </nav>
       </header>
 
-      <section class="content">
-        <header class="content-header">
-          <h2 class="content-title violet">Projects</h2>
-        </header>
-
+      <section class="content row" id="projects">
         <div class="content-container">
+          <header class="content-header">
+            <h2 class="content-title violet animated fadeInDown">Projects</h2>
+          </header>
           <ul class="projects-list">
-            <li class="project">
-              <a href="#" class="project-link">
-                <img src="img&#x2F;projects&#x2F;neighborhood-map&#x2F;2.png" class="project-img" alt="">
+            <li class="project animated fadeInDown">
+              <a href="https:&#x2F;&#x2F;github.com&#x2F;HassenPy&#x2F;udacity-fsnd-neighborhood-map-project" target="_blank" class="project-link">
+                <img src="dist&#x2F;img&#x2F;projects&#x2F;neighborhood-map&#x2F;2.png" class="project-img" alt="">
                 <h3 class="project-title">Djerba Map</h3>
               </a>
             </li>
-            <li class="project">
-              <a href="#" class="project-link">
-                <img src="img&#x2F;projects&#x2F;item-catalog&#x2F;login.png" class="project-img" alt="">
+            <li class="project animated fadeInDown">
+              <a href="https:&#x2F;&#x2F;github.com&#x2F;HassenPy&#x2F;udacity-fsnd-item-catalog" target="_blank" class="project-link">
+                <img src="dist&#x2F;img&#x2F;projects&#x2F;item-catalog&#x2F;login.png" class="project-img" alt="">
                 <h3 class="project-title">Picky</h3>
               </a>
             </li>
-            <li class="project">
-              <a href="#" class="project-link">
-                <img src="img&#x2F;projects&#x2F;remote-control&#x2F;control.png" class="project-img" alt="">
-                <h3 class="project-title">web robot controller</h3>
+            <li class="project animated fadeInDown">
+              <a href="https:&#x2F;&#x2F;github.com&#x2F;HassenPy&#x2F;udacity-fsnd-project-2&#x2F;" target="_blank" class="project-link">
+                <img src="dist&#x2F;img&#x2F;projects&#x2F;log-analysis&#x2F;log-analysis.png" class="project-img" alt="">
+                <h3 class="project-title">Database Log analysis</h3>
               </a>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="content">
-        <header class="content-header">
-          <h2 class="content-title blue">Open source</h2>
-        </header>
-
+      <section class="content row" id="repos">
         <div class="content-container">
-          <ul class="repos-list">
-              <li class="repo">
+          <header class="content-header">
+            <h2 class="content-title blue animated fadeInDown">Open source</h2>
+          </header>
+          <ul class="repos-list row">
+              <li class="repo col-xs-12 animated fadeInDown">
                 <h3 class="repo-title">django-pdb</h3>
                 <p class="repo-contrib">Add support for the latest django middleware, also now maintaining the project.</p>
-                <div class="repo-contrib-link"><a href="https:&#x2F;&#x2F;github.com&#x2F;HassenPy&#x2F;django-pdb&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link">changes</a></div>
+                <div class="repo-contrib-link">
+                  <a href="https:&#x2F;&#x2F;github.com&#x2F;HassenPy&#x2F;django-pdb&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link" target="_blank">changes</a>
+                </div>
               </li>
-              <li class="repo">
+              <li class="repo col-xs-12 animated fadeInDown">
                 <h3 class="repo-title">Mozilla Study Group&#39;s Event Tracker</h3>
                 <p class="repo-contrib">Changed the script so that it writes data to a google spreadsheet using nodejs.</p>
-                <div class="repo-contrib-link"><a href="https:&#x2F;&#x2F;github.com&#x2F;auremoser&#x2F;sg-events&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link">changes</a></div>
+                <div class="repo-contrib-link">
+                  <a href="https:&#x2F;&#x2F;github.com&#x2F;auremoser&#x2F;sg-events&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link" target="_blank">changes</a>
+                </div>
               </li>
-              <li class="repo">
+              <li class="repo col-xs-12 animated fadeInDown">
                 <h3 class="repo-title">Mozilla Science Lab website&#39;s frontend</h3>
                 <p class="repo-contrib">Added an adaptive behavior to the select filter using react.</p>
-                <div class="repo-contrib-link"><a href="https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;science.mozilla.org&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link">changes</a></div>
+                <div class="repo-contrib-link">
+                  <a href="https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;science.mozilla.org&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link" target="_blank">changes</a>
+                </div>
               </li>
-              <li class="repo">
+              <li class="repo col-xs-12 animated fadeInDown">
                 <h3 class="repo-title">Mozilla Science Lab website&#39;s backend</h3>
                 <p class="repo-contrib">Minor django admin enhancements like search and sorting.</p>
-                <div class="repo-contrib-link"><a href="https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;api.mozillascience.org&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy" class="link">changes</a></div>
+                <div class="repo-contrib-link">
+                  <a href="https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;api.mozillascience.org&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy" class="link" target="_blank">changes</a>
+                </div>
               </li>
-              <li class="repo">
+              <li class="repo col-xs-12 animated fadeInDown">
                 <h3 class="repo-title">Mozilla Foundation&#39;s React component library</h3>
                 <p class="repo-contrib">allow binding the radio-filter component to a parent component state.</p>
-                <div class="repo-contrib-link"><a href="https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;mofo-ui&#x2F;pulls?q&#x3D;is%3Apr+author%3AHassenPy" class="link">changes</a></div>
+                <div class="repo-contrib-link">
+                  <a href="https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;mofo-ui&#x2F;pulls?q&#x3D;is%3Apr+author%3AHassenPy" class="link" target="_blank">changes</a>
+                </div>
               </li>
-              <li class="repo">
+              <li class="repo col-xs-12 animated fadeInDown">
                 <h3 class="repo-title">routersploit</h3>
                 <p class="repo-contrib">Added module that tests for the Comtrend CT 5361T Password Disclosure vulnerability.</p>
-                <div class="repo-contrib-link"><a href="https:&#x2F;&#x2F;github.com&#x2F;reverse-shell&#x2F;routersploit&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link">changes</a></div>
+                <div class="repo-contrib-link">
+                  <a href="https:&#x2F;&#x2F;github.com&#x2F;reverse-shell&#x2F;routersploit&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link" target="_blank">changes</a>
+                </div>
               </li>
-              <li class="repo">
+              <li class="repo col-xs-12 animated fadeInDown">
                 <h3 class="repo-title">wifiphisher</h3>
                 <p class="repo-contrib">Bug fix, PEP8ify, halt the script unless hostapd is installed giving a colored custom message .</p>
-                <div class="repo-contrib-link"><a href="https:&#x2F;&#x2F;github.com&#x2F;wifiphisher&#x2F;wifiphisher&#x2F;pulls?q&#x3D;is%3Apr+author%3AHassenPy" class="link">changes</a></div>
+                <div class="repo-contrib-link">
+                  <a href="https:&#x2F;&#x2F;github.com&#x2F;wifiphisher&#x2F;wifiphisher&#x2F;pulls?q&#x3D;is%3Apr+author%3AHassenPy" class="link" target="_blank">changes</a>
+                </div>
               </li>
-              <li class="repo">
+              <li class="repo col-xs-12 animated fadeInDown">
                 <h3 class="repo-title">Tango with Django Book</h3>
                 <p class="repo-contrib">First ever repo i contribute to, bug and typo fixes.</p>
-                <div class="repo-contrib-link"><a href="https:&#x2F;&#x2F;github.com&#x2F;leifos&#x2F;tango_with_django_book&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link">changes</a></div>
+                <div class="repo-contrib-link">
+                  <a href="https:&#x2F;&#x2F;github.com&#x2F;leifos&#x2F;tango_with_django_book&#x2F;pulls?utf8&#x3D;%E2%9C%93&amp;q&#x3D;is%3Apr%20author%3AHassenPy%20" class="link" target="_blank">changes</a>
+                </div>
               </li>
           </ul>
         </div>
       </section>
-
-    </main>
   </div>
-
 </body>
-
 </html>
