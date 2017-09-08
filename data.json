@@ -13,6 +13,11 @@
       "title": "Database Log analysis",
       "cover": "dist/img/projects/log-analysis/log-analysis.png",
       "link": "https://github.com/HassenPy/udacity-fsnd-project-2/"
+    },
+    {
+      "title": "CRM easy app",
+      "cover": "dist/img/projects/crm/crmeasy.png",
+      "link": "https://github.com/HassenPy/CRM-easy-app"
     }
   ],
   "repos": [{
