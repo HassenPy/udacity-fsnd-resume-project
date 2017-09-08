@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mustache data.json index.html > output.html"
+    "build": "mustache data.json template.mustache > index.html"
   },
   "author": "",
   "license": "ISC",
