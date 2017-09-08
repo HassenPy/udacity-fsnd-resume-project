@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6,12 +7,12 @@ body {
   font-size: 22px;
   color: #333;
   font-family: "Simplifica";
-  background: #FFF;
+  background: #fff;
 }
 
 @font-face {
   font-family: "Simplifica";
-  src: url('../fonts/Simplifica/SIMPLIFICA Typeface.ttf');
+  src: url(../fonts/Simplifica/SIMPLIFICA Typeface.ttf);
   font-weight: 400;
 }
 
@@ -34,7 +35,8 @@ body {
   padding: .25em;
 }
 
-.link:hover, .link:focus {
+.link:hover,
+.link:focus {
   text-decoration: none;
   background: #2196F3;
 }
@@ -93,7 +95,9 @@ body {
   border-bottom: 2px solid #c3b7d8;
 }
 
-.projects-link:hover, .projects-link:focus, .projects-link.active {
+.projects-link:hover,
+.projects-link:focus,
+.projects-link.active {
   background: #c3b7d8;
 }
 
@@ -101,7 +105,9 @@ body {
   border-bottom: 2px solid #28cacb;
 }
 
-.os-link:hover, .os-link:focus, .os-link.active {
+.os-link:hover,
+.os-link:focus,
+.os-link.active {
   background: #28cacb;
 }
 
@@ -143,9 +149,9 @@ body {
 }
 
 .project {
-  padding: 2em;
-  margin: .25em;
   display: inline-block;
+  max-width: 400px;
+  padding: 2em;
 }
 
 .project:hover .project-img {
@@ -153,7 +159,9 @@ body {
 }
 
 .project-img {
-  max-width: 200px;
+  max-width: 100%;
+  height: auto;
+  display:block;
   box-shadow: 0 1px 4px rgba(51, 51, 51, 0.55);
   transition: box-shadow .35s ease-in-out;
 }
@@ -195,4 +203,13 @@ body {
 
 .repo-contrib-link {
   margin-bottom: 1em;
+}
+
+@media screen and (min-width: 2000px) {
+  .content-container {
+    max-width: 1500px;
+  }
+  .project {
+    max-width: 500px;
+  }
 }
